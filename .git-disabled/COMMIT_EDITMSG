@@ -1,0 +1,5 @@
+feat(product): update Spinner import and component usage in ProductDetailPage
+
+- Renamed import from 'Spinner' to 'LoadingSpinner' for consistency
+- Updated component usage from <Spinner /> to <LoadingSpinner />
+- Maintains same functionality while improving naming clarity
