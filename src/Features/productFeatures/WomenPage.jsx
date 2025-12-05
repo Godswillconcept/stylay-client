@@ -2,19 +2,19 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-<<<<<<<< HEAD:src/Features/productFeature/WomenPage.jsx
+<<<<<<<< HEAD:src/features/productFeature/WomenPage.jsx
 import { products, journalEntries } from "../../data/Product";
 import ProductSet from "../../ui/ProductSet";
 import JournalCard from "../journalsFeature/JournalCard";
 ========
 
 import ProductSet from "../../ui/ProductSet";
-import JournalCard from "../../Features/journalsFeature/JournalCard";
+import JournalCard from "../../features/journalsFeature/JournalCard";
 import { useProductsByCategory } from "./useProductByCategory";
 import { useSearchParams } from "react-router";
 import Pagination from "../../ui/Pagination";
 import { journalEntries } from "../../data/Product";
->>>>>>>> e9886a266a378b88d7583f91611d681c35bafebc:src/Features/productFeatures/WomenPage.jsx
+>>>>>>>> e9886a266a378b88d7583f91611d681c35bafebc:src/features/productfeatures/WomenPage.jsx
 
 function WomenPage() {
   const [searchParams] = useSearchParams();

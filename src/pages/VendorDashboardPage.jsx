@@ -1,4 +1,4 @@
-import VendorDashboardHeader from "../Features/vendorFeature/VendorDashBoardHeader";
+import VendorDashboardHeader from "../features/vendorFeature/VendorDashBoardHeader";
 import Footer from "../ui/Footer";
 import { Outlet } from "react-router-dom";
 

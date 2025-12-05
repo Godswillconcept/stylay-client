@@ -10,13 +10,13 @@ import { BiLogOut, BiMenu, BiSearch, BiUser, BiX, BiPackage } from "react-icons/
 import { MdDashboard } from "react-icons/md";
 import { FaShoppingCart } from "react-icons/fa";
 import { NavLink, useNavigate } from "react-router-dom";
-import { useUser } from "../Features/authentication/useUser";
-import { useLogout } from "../Features/authentication/useLogout";
-// import { useCart } from "../Features/cart/useCart";
-// import { useCart } from "../Features/cart/useCart";
+import { useUser } from "../features/authentication/useUser";
+import { useLogout } from "../features/authentication/useLogout";
+// import { useCart } from "../features/cart/useCart";
+// import { useCart } from "../features/cart/useCart";
 import { getPlaceholder } from "../utils/helper";
-import { useUnifiedCart } from "../Features/cart/useUnifiedCart";
-import { useProductSearch } from "../Features/productFeatures/useSearchProduct";
+import { useUnifiedCart } from "../features/cart/useUnifiedCart";
+import { useProductSearch } from "../features/productfeatures/useSearchProduct";
 
 
 const Header = () => {

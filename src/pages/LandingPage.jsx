@@ -3,9 +3,9 @@ import Footer from "../ui/Footer";
 import Header from "../ui/Header";
 import Hero from "../ui/Hero";
 import ProductCarousel from "../ui/ProductCarousel";
-// import { useProducts } from "../Features/productFeatures/useProducts";
-import { useNewArrival } from "../Features/productFeatures/useNewArrival";
-import { useTrendingProducts } from "../Features/productFeatures/useTrendingProducts";
+// import { useProducts } from "../features/productfeatures/useProducts";
+import { useNewArrival } from "../features/productfeatures/useNewArrival";
+import { useTrendingProducts } from "../features/productfeatures/useTrendingProducts";
 
 function LandingPage() {
   const { data: newArrival, totalItems } = useNewArrival();

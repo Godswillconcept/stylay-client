@@ -1,4 +1,4 @@
-import JournalDetail from "../Features/journalsFeature/JournalDetail";
+import JournalDetail from "../features/journalsFeature/JournalDetail";
 import Footer from "../ui/Footer";
 import Header from "../ui/Header";
 

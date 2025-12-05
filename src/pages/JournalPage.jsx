@@ -1,7 +1,7 @@
 // // import { journalEntries } from "../data/Product";
 // // import Footer from "../ui/Footer";
 // // import Header from "../ui/Header";
-// // import JournalGrid from "../Features/journalsFeature/JournalGrid";
+// // import JournalGrid from "../features/journalsFeature/JournalGrid";
 
 // // function JournalPage() {
 // //   return (
@@ -20,10 +20,10 @@
 // // export default JournalPage;
 
 // import { useSearchParams } from "react-router-dom";
-// import { useBlogs } from "../Features/journalsFeature/useBlogs";
+// import { useBlogs } from "../features/journalsFeature/useBlogs";
 // import Footer from "../ui/Footer";
 // import Header from "../ui/Header";
-// import JournalGrid from "../Features/journalsFeature/JournalGrid";
+// import JournalGrid from "../features/journalsFeature/JournalGrid";
 // import Pagination from "../ui/Pagination";
 // import { PAGE_SIZE } from "../utils/constants";
 
@@ -74,10 +74,10 @@
 
 // pages/JournalPage.jsx
 import { useSearchParams } from "react-router-dom";
-import { useBlogs } from "../Features/journalsFeature/useBlogs";
+import { useBlogs } from "../features/journalsFeature/useBlogs";
 import Header from "../ui/Header";
 import Footer from "../ui/Footer";
-import JournalGrid from "../Features/journalsFeature/JournalGrid";
+import JournalGrid from "../features/journalsFeature/JournalGrid";
 import Pagination from "../ui/Pagination";
 import { PAGE_SIZE } from "../utils/constants";
 import Spinner from "../ui/spinner";

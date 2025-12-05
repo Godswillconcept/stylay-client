@@ -1,4 +1,4 @@
-import Address from "../../Features/dashboardFeature/Address";
+import Address from "../../features/dashboardFeature/Address";
 
 
 function AddressesPage() {

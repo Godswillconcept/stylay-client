@@ -1,4 +1,4 @@
-import PhoneVerification from "../Features/authentication/PhoneVerification";
+import PhoneVerification from "../features/authentication/PhoneVerification";
 function PhoneVerificationPage() {
   return <PhoneVerification />;
 }

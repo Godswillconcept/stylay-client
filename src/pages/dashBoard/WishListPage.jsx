@@ -1,7 +1,7 @@
 import WishlistCard from "../../ui/WishlistCard";
 import PaginatedGrid from "./PaginatedGrid";
-import { useWishlist } from "../../Features/productFeatures/useWishlist";
-import { useRemoveWishlist } from "../../Features/productFeatures/useRemovewishlist";
+import { useWishlist } from "../../features/productfeatures/useWishlist";
+import { useRemoveWishlist } from "../../features/productfeatures/useRemovewishlist";
 import { useNavigate } from "react-router-dom";
 
 // const wishlistProducts = [
@@ -97,7 +97,7 @@ import { useNavigate } from "react-router-dom";
 
 // import WishlistCard from "../../ui/WishlistCard";
 // import PaginatedGrid from "./PaginatedGrid";
-// import { useWishlist } from "../../Features/productFeatures/useWishlist";
+// import { useWishlist } from "../../features/productfeatures/useWishlist";
 
 const WishlistItem = ({ item, onRemove, onAddToCart }) => (
   <WishlistCard

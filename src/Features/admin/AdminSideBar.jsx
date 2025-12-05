@@ -3,7 +3,7 @@ import { Menu } from "./AdminMenu";
 import { useState, useEffect } from "react";
 import { ArrowLeftOnRectangleIcon } from "@heroicons/react/24/outline";
 import Logo from "../../ui/Logo";
-import { useLogout } from "../../Features/authentication/useLogout";
+import { useLogout } from "../../features/authentication/useLogout";
 export default function AdminSideBar() {
   const { logout } = useLogout();
   const [collapsed, setCollapsed] = useState(false);

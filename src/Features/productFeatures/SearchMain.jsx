@@ -1,6 +1,6 @@
 
 import { useSearchParams } from "react-router-dom";
-import { useProductSearch } from "../../Features/productFeatures/useSearchProduct";
+import { useProductSearch } from "../../features/productfeatures/useSearchProduct";
 import ProductSet from "../../ui/ProductSet";
 import Pagination from "../../ui/Pagination";
 

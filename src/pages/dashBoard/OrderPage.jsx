@@ -1,5 +1,5 @@
 
-import Order from "../../Features/dashboardFeature/Order";
+import Order from "../../features/dashboardFeature/Order";
 
 
 

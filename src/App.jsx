@@ -2,13 +2,13 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { Toaster } from "react-hot-toast";
-import { CartProvider } from "./Features/cart";
+import { CartProvider } from "./features/cart";
 
 // Layouts
 import MainLayout from "./layouts/MainLayout";
-import AuthLayout from "./Features/authentication/AuthLayout";
-import DashboardLayout from "./Features/dashboardFeature/DashboardLayout";
-import AdminLayout from "./Features/admin/AdminLayout";
+import AuthLayout from "./features/authentication/AuthLayout";
+import DashboardLayout from "./features/dashboardFeature/DashboardLayout";
+import AdminLayout from "./features/admin/AdminLayout";
 
 // Auth Pages
 import SignupPage from "./pages/SignupPage";
@@ -20,9 +20,9 @@ import PhoneVerificationPage from "./pages/PhoneVerificationPage";
 
 // Main Pages
 import LandingPage from "./pages/LandingPage";
-import ProductsPage from "./Features/productFeatures/ProductsPage";
-import ProductDetailPage from "./Features/productFeatures/ProductDetailPage";
-import CategoryPage from "./Features/productFeatures/CategoryPage";
+import ProductsPage from "./features/productfeatures/ProductsPage";
+import ProductDetailPage from "./features/productfeatures/ProductDetailPage";
+import CategoryPage from "./features/productfeatures/CategoryPage";
 import JournalPage from "./pages/JournalPage";
 import VendorPage from "./pages/VendorPage";
 import VendorDetailsPage from "./pages/VendorDetailsPage";
@@ -30,9 +30,9 @@ import VendorFormPage from "./pages/VendorFormPage";
 
 // Cart
 import CartPage from "./pages/CartPage";
-import Cart from "./Features/cart/Cart";
-import CartSummary from "./Features/cart/CartSummary";
-import PaymentSummary from "./Features/cart/PaymentSummary";
+import Cart from "./features/cart/Cart";
+import CartSummary from "./features/cart/CartSummary";
+import PaymentSummary from "./features/cart/PaymentSummary";
 
 // Dashboard
 import ProfilePage from "./pages/dashBoard/ProfilePage";
@@ -43,7 +43,7 @@ import PendingReviewsPage from "./pages/dashBoard/PendingReviewsPage";
 import PendingRateReviewsPage from "./pages/dashBoard/PendingRateReviewsPage";
 import RecentPage from "./pages/dashBoard/RecentPage";
 import AddressesPage from "./pages/dashBoard/AddressesPage";
-import NewAddressPage from "./Features/dashboardFeature/NewAddressPage";
+import NewAddressPage from "./features/dashboardFeature/NewAddressPage";
 import FollowedPage from "./pages/dashBoard/FollowedPage";
 import WishListPage from "./pages/dashBoard/WishListPage";
 import SupportPage from "./pages/dashBoard/SupportPage";
@@ -54,34 +54,34 @@ import VendorDashboardPage from "./pages/VendorDashboardPage";
 import VendorEarningPage from "./pages/VendorEarningPage";
 
 // Utils
-import ProtectedRoute from "./Features/authentication/ProtectedRoute";
-import EditAddressPage from "./Features/dashboardFeature/EditAddressPage";
-// import VendorDetails from "./Features/vendorFeature/VendorDetails";
-import VendorDashboard from "./Features/vendorFeature/VendorDashboard";
-import VendorProductDetail from "./Features/vendorFeature/VendorProductDetail";
-import SearchMain from "./Features/productFeatures/SearchMain";
+import ProtectedRoute from "./features/authentication/ProtectedRoute";
+import EditAddressPage from "./features/dashboardFeature/EditAddressPage";
+// import VendorDetails from "./features/vendorFeature/VendorDetails";
+import VendorDashboard from "./features/vendorFeature/VendorDashboard";
+import VendorProductDetail from "./features/vendorFeature/VendorProductDetail";
+import SearchMain from "./features/productfeatures/SearchMain";
 import SearchLayout from "./layouts/SearchLayout";
 // import SearchLayout from "./layouts/SearchLayout";
 
 // Admin
-import AdminDashboard from "./Features/admin/dashboard/AdminDashboard";
-import VendorsApplication from "./Features/admin/vendorApplication/VendorsApplication";
-import ApplicantDetail from "./Features/admin/vendorApplication/ApplicantDetail";
-import VendorList from "./Features/admin/vendorList/VendorList";
-import VendorDetailPage from "./Features/admin/vendorList/VendorDetailPage";
-import VendorProducts from "./Features/admin/vendorProduct/VendorProducts";
-import AdminVendorProductDetail from "./Features/admin/vendorProduct/AdminVendorProductDetail";
-import AdminProductCollection from "./Features/admin/collections/AdminProductCollection";
-import CollectionDetail from "./Features/admin/collections/CollectionDetail";
-import OrdersList from "./Features/admin/orders/OrdersList";
-import OrderDetail from "./Features/admin/orders/OrderDetail";
-import Earnings from "./Features/admin/adminVendorEarnings/Earnings";
-import Feedback from "./Features/admin/FeedBack";
-import FeedbackDetail from "./Features/admin/FeedbackDetail";
-import AdminNotification from "./Features/admin/AdminNotification";
-import SubAdmin from "./Features/admin/SubAdmin";
-import SubAdminDetails from "./Features/admin/SubAdminDetails";
-import AdminJournal from "./Features/admin/AdminJournal";
+import AdminDashboard from "./features/admin/dashboard/AdminDashboard";
+import VendorsApplication from "./features/admin/vendorApplication/VendorsApplication";
+import ApplicantDetail from "./features/admin/vendorApplication/ApplicantDetail";
+import VendorList from "./features/admin/vendorList/VendorList";
+import VendorDetailPage from "./features/admin/vendorList/VendorDetailPage";
+import VendorProducts from "./features/admin/vendorProduct/VendorProducts";
+import AdminVendorProductDetail from "./features/admin/vendorProduct/AdminVendorProductDetail";
+import AdminProductCollection from "./features/admin/collections/AdminProductCollection";
+import CollectionDetail from "./features/admin/collections/CollectionDetail";
+import OrdersList from "./features/admin/orders/OrdersList";
+import OrderDetail from "./features/admin/orders/OrderDetail";
+import Earnings from "./features/admin/adminVendorEarnings/Earnings";
+import Feedback from "./features/admin/FeedBack";
+import FeedbackDetail from "./features/admin/FeedbackDetail";
+import AdminNotification from "./features/admin/AdminNotification";
+import SubAdmin from "./features/admin/SubAdmin";
+import SubAdminDetails from "./features/admin/SubAdminDetails";
+import AdminJournal from "./features/admin/AdminJournal";
 import JournalDetailPage from "./pages/JournalDetailPage";
 import NotFoundPage from "./pages/NotFoundPage";
 

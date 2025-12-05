@@ -1,6 +1,6 @@
 import { FiHeart, FiShoppingCart } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
-import { useAddWishList } from "../Features/productFeatures/useAddWishList";
+import { useAddWishList } from "../features/productfeatures/useAddWishList";
 import { formatCurrency } from "../utils/formatCurrency";
 
 function ProductCard({ product }) {

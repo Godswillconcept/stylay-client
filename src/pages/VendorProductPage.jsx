@@ -1,5 +1,5 @@
-import VendorProductDetail from "../Features/VendorFeature/VendorProductDetail";
-import VendorDashboardHeader from "../Features/VendorFeature/VendorDashBoardHeader";
+import VendorProductDetail from "../features/vendorFeature/VendorProductDetail";
+import VendorDashboardHeader from "../features/vendorFeature/VendorDashBoardHeader";
 import Footer from "../ui/Footer";
 
 export default function VendorProductPage() {

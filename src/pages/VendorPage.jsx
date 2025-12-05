@@ -1,12 +1,12 @@
 import { Suspense, lazy } from "react";
 import Footer from "../ui/Footer";
 import Header from "../ui/Header";
-import VendorList from "../Features/vendorFeature/VendorList";
-import VendorHero from "../Features/vendorFeature/VendorHero";
+import VendorList from "../features/vendorFeature/VendorList";
+import VendorHero from "../features/vendorFeature/VendorHero";
 
 // Lazy load the RandomVendor component since it makes an API call
 const RandomVendor = lazy(
-  () => import("../Features/vendorFeature/RandomVendors"),
+  () => import("../features/vendorFeature/RandomVendors"),
 );
 
 function LoadingFallback() {

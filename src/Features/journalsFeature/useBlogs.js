@@ -20,7 +20,7 @@
 //     };
 // }
 
-// Features/journalsFeature/useBlogs.js
+// features/journalsFeature/useBlogs.js
 import { useQuery } from "@tanstack/react-query";
 import { getBlogs } from "../../services/apiBlog";
 

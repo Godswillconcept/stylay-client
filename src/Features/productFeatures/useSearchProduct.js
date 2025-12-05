@@ -14,7 +14,7 @@
 // }
 
 
-// src/Features/productFeatures/useSearchProduct.js
+// src/features/productfeatures/useSearchProduct.js
 import { useQuery } from "@tanstack/react-query";
 import { searchProducts } from "../../services/apiProduct";
 

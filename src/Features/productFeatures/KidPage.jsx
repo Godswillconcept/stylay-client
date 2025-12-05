@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import Header from "../../ui/Header";
 import SideBar from "../../ui/SideBar";
 
-import JournalGrid from "../../Features/journalsFeature/JournalGrid";
+import JournalGrid from "../../features/journalsFeature/JournalGrid";
 import ProductSet from "../../ui/ProductSet";
 import { useSearchParams } from "react-router";
 import { useProductsByCategory } from "./useProductByCategory";

@@ -4,7 +4,7 @@ import SwatchGroup from "./SwatchGroup";
 import { FiShoppingCart } from "react-icons/fi";
 import { useDispatch } from "react-redux";
 import { useState, useEffect, useMemo } from "react";
-import { addToCart } from "../Features/cart/slice";
+import { addToCart } from "../features/cart/slice";
 import toast from "react-hot-toast";
 import { FiLoader } from "react-icons/fi";
 

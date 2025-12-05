@@ -1,4 +1,4 @@
-import SetUpNewPassword from "../Features/authentication/SetUpNewPassword";
+import SetUpNewPassword from "../features/authentication/SetUpNewPassword";
 
 function SetUpPasswordPage() {
   return <SetUpNewPassword />;

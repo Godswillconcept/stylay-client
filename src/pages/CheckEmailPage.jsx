@@ -1,4 +1,4 @@
-import CheckEmail from "../Features/authentication/CheckEmail";
+import CheckEmail from "../features/authentication/CheckEmail";
 
 function CheckEmailPage() {
   return <CheckEmail />;

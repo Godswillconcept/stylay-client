@@ -1,4 +1,4 @@
-import VendorDetails from "../Features/vendorFeature/VendorDetails";
+import VendorDetails from "../features/vendorFeature/VendorDetails";
 import Footer from "../ui/Footer";
 import Header from "../ui/Header";
 

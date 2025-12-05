@@ -7,7 +7,7 @@ import {
   CalendarDaysIcon, // For Last Purchase Date (optional, or just text)
 } from "@heroicons/react/24/outline"; // Importing necessary icons
 import { Link, useParams } from "react-router";
-import { useProduct } from "../../productFeatures/useProduct";
+import { useProduct } from "../../productfeatures/useProduct";
 import AdminProductStatsCard from "./AdminProductStatsCard";
 import { useProductAnalysis } from "./useProductAnalysis";
 import { formatCurrency } from "../../../utils/formatCurrency";

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import VendorRegistrationForm from "../Features/VendorFeature/VendorRegistrationForm";
+import VendorRegistrationForm from "../features/vendorFeature/VendorRegistrationForm";
 import Footer from "../ui/Footer";
 import GlideSlider from "../ui/GlideSlider";
 import Header from "../ui/Header";

@@ -1,4 +1,4 @@
-import LoginForm from "../Features/authentication/LoginForm";
+import LoginForm from "../features/authentication/LoginForm";
 
 function LoginPage() {
   return <LoginForm />;

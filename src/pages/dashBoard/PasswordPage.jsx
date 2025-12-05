@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import ProfileInput from "./ProfileInput";
-import { usePasswordUpdate } from "../../Features/authentication/usePasswordUpdate";
+import { usePasswordUpdate } from "../../features/authentication/usePasswordUpdate";
 
 function PasswordPage() {
   const { updatePassword, isLoading } = usePasswordUpdate();

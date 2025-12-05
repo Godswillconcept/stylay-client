@@ -1,4 +1,4 @@
-import FollowedDesigner from "../../Features/dashboardFeature/followedDesigner";
+import FollowedDesigner from "../../features/dashboardFeature/followedDesigner";
 
 
 function FollowedPage() {

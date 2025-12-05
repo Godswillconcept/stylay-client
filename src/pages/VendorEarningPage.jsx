@@ -1,5 +1,5 @@
-// import VendorDashboardHeader from "../Features/vendorFeature/VendorDashBoardHeader";
-import VendorEarning from "../Features/vendorFeature/VendorEarning";
+// import VendorDashboardHeader from "../features/vendorFeature/VendorDashBoardHeader";
+import VendorEarning from "../features/vendorFeature/VendorEarning";
 import Footer from "../ui/Footer";
 
 export default function VendorEarningPage() {

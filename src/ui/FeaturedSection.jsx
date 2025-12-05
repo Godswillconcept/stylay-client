@@ -1,9 +1,9 @@
-import JournalCard from "../Features/journalsFeature/JournalCard";
-import JournalGrid from "../Features/journalsFeature/JournalGrid";
+import JournalCard from "../features/journalsFeature/JournalCard";
+import JournalGrid from "../features/journalsFeature/JournalGrid";
 import ProductCard from "./ProductCard";
 import ProductSet from "./ProductSet";
 import { journalEntries } from "../data/Product";
-import { useBlogs } from "../Features/journalsFeature/useBlogs";
+import { useBlogs } from "../features/journalsFeature/useBlogs";
 
 function FeaturedSection({ trendingProducts }) {
   const { blogs, isLoading } = useBlogs();
