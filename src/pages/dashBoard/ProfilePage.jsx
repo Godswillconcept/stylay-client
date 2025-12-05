@@ -1,4 +1,4 @@
-import Profile from "../../Features/dashboardFeature/profile";
+import Profile from "../../Features/dashboardFeature/Profile";
 
 function ProfilePage() {
   return <Profile />;
